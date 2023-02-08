@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    margin:0;
 }
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -35,7 +36,3 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.row1 {  margin-top: 0%;  margin-left: 20vh;}
-.row2 {  margin-top: 10%;  margin-left: 20vh;}
-.row3 {  margin-top: 10%;  margin-left: 20vh;}
-.row4 {  margin-top: 10%;  margin-left:20vh;}
