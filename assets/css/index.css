@@ -1,9 +1,90 @@
 body {
     background-color: black;
+    margin:0;
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 6vw;
+    color: white;
+
 }
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    color: navy(255, 252, 252);
+}
+
+h3 {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+    color: white(0, 0, 0);
+}
+h4 {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vw;
+  
+}
+h5 {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    color: white(0, 0, 0);
+}
+h6 {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    color: rgb(171, 229, 248);
+}
+b{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1vw;
+    color: black;
+    }
 .jumbotron1 {
     background-image: url(../images/backgrounds/jumbotron\ background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 20vh;
+    margin: 0%;
+   
+}
+.cardAbout {
+    background-image: url(../images/backgrounds/about\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid black 1px;
+    height: 35vh;
+}
+.cardDescription {
+    background-image: url(../images/backgrounds/background\ cardDescription.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140vh;
+    margin-left: 30vh;
+    border: solid black 1px;
+   
+}
+.workCardBackground {
+    background-image: url(../images/backgrounds/cardWorkBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cardDescriptionButton {
+    background-image: url(../images/backgrounds/button\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    margin-left: 25vh;
+    width: 30vh;
+}
+
+#passwordGeneratorButton{
+    background-image: url(../images/backgrounds/button\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    margin-left: 20vh;
+    width: 45vh;
+}
+.jumbotron2 {
+    background-image: url(../images/backgrounds/jumbotron2\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+    margin: 0%;
 }
