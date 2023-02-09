@@ -39,7 +39,7 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url(../images/backgrounds/jumbotron\ background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 35vh;
+    height: 20vh;
     margin: 0%;
    
 }
@@ -48,7 +48,7 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     background-repeat: no-repeat;
     background-size: cover;
     border: solid black 1px;
-    height: 25vh;
+    height: 35vh;
 }
 .cardDescription {
     background-image: url(../images/backgrounds/background\ cardDescription.jpg);
