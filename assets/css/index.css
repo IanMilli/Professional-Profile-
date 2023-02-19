@@ -48,7 +48,8 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     background-repeat: no-repeat;
     background-size: cover;
     border: solid black 1px;
-    height: 35vh;
+    height: 30vh;
+    border-radius: 70%;
 }
 .cardDescription {
     background-image: url(../images/backgrounds/background\ cardDescription.jpg);
@@ -60,7 +61,7 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
 .workCardBackground {
-    background-image: url(../images/backgrounds/cardWorkBackground.jpg);
+    background-image: url(../images/backgrounds/background\ cardDescription.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -72,6 +73,16 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 25vh;
     width: 30vh;
 }
+
+.cardDescriptionButton {
+    background-image: url(../images/backgrounds/button\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    margin-left: 25vh;
+    width: 90vh;
+}
+
 
 #passwordGeneratorButton{
     background-image: url(../images/backgrounds/button\ background.jpg);
@@ -87,4 +98,9 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
     height: 10vh;
     margin: 0%;
+}
+/*creates a overflow scroll box for text*/
+.card-text {
+    height: 10em;
+    overflow: auto;
 }
