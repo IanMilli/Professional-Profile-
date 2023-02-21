@@ -2,6 +2,7 @@
 let soloProjectsEl = document.getElementById("soloProjects");
 let passwordGeneratorsEl = document.getElementById("passwordGenerators");
 let revisionCardsTestEl = document.getElementById("revisionCardsTest");
+let dailyPlannerEl = document.getElementById("dailyPlanner");
 
 soloProjectsEl.addEventListener("click", function (event) {
 event.preventDefault();
@@ -24,3 +25,10 @@ document.getElementById("row2Star").classList.add("d-none");
     document.getElementById("soloProjectsCard").classList.add("d-none");
     document.getElementById("revisionTestCard").classList.remove("d-none")
 });
+
+dailyPlannerEl.addEventListener("click", function (event){
+  event.preventDefault();
+  document.getElementById("row2Star").classList.add("d-none");
+      document.getElementById("soloProjectsCard").classList.add("d-none");
+      document.getElementById("dailyPlannerCard").classList.remove("d-none")
+  });
