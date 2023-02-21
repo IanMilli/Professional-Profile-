@@ -3,6 +3,7 @@ let soloProjectsEl = document.getElementById("soloProjects");
 let passwordGeneratorsEl = document.getElementById("passwordGenerators");
 let revisionCardsTestEl = document.getElementById("revisionCardsTest");
 let dailyPlannerEl = document.getElementById("dailyPlanner");
+let weatherDashboardEl = document.getElementById("weather"); 
 
 soloProjectsEl.addEventListener("click", function (event) {
 event.preventDefault();
@@ -32,3 +33,10 @@ dailyPlannerEl.addEventListener("click", function (event){
       document.getElementById("soloProjectsCard").classList.add("d-none");
       document.getElementById("dailyPlannerCard").classList.remove("d-none")
   });
+
+  weatherDashboardEl.addEventListener("click", function (event){
+    event.preventDefault();
+    document.getElementById("row2Star").classList.add("d-none");
+        document.getElementById("soloProjectsCard").classList.add("d-none");
+        document.getElementById("weatherCard").classList.remove("d-none")
+    });
