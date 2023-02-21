@@ -6,6 +6,7 @@ let dailyPlannerEl = document.getElementById("dailyPlanner");
 let weatherDashboardEl = document.getElementById("weather");
 let readMeEl = document.getElementById("readMeGenerator"); 
 let voluntaryEl = document.getElementById("voluntaryProjects");
+let collaboratedEl = document.getElementById("collaboratedProjects");
 
 soloProjectsEl.addEventListener("click", function (event) {
 event.preventDefault();
@@ -57,3 +58,11 @@ document.getElementById("firstMenuCard").classList.add("d-none");
 document.getElementById("row4Star").classList.remove("d-none");
 document.getElementById("voluntaryCard").classList.remove("d-none");
       })
+
+      collaboratedEl.addEventListener("click", function (event){
+        event.preventDefault();
+        document.getElementById("row2Star").classList.add("d-none");
+        document.getElementById("firstMenuCard").classList.add("d-none");
+        document.getElementById("collaboratedStar").classList.remove("d-none");
+        document.getElementById("collaboratedCard").classList.remove("d-none");
+              })
