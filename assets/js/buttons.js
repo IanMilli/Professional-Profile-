@@ -28,13 +28,27 @@ closeSoloProjectsEl.addEventListener("click", function (event){
   window.scrollTo(0, document.getElementById('work').offsetTop)
 })
 
-
+//code to close solo projects card and password generators card
 passwordGeneratorsEl.addEventListener("click", function (event) {
   event.preventDefault();
-  document.getElementById("row2Star").classList.add("d-none");
+  document.getElementById("row3Star").classList.add("d-none");
   document.getElementById("soloProjectsCard").classList.add("d-none");
   document.getElementById("passwordGeneratorsCard").classList.remove("d-none")
 });
+//code to close password generators card and return to solo projects
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 revisionCardsTestEl.addEventListener("click", function (event) {
   event.preventDefault();
