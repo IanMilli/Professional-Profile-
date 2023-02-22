@@ -8,6 +8,8 @@ let readMeEl = document.getElementById("readMeGenerator");
 let voluntaryEl = document.getElementById("voluntaryProjects");
 let collaboratedEl = document.getElementById("collaboratedProjects");
 let closeSoloProjectsEl = document.getElementById("closeSolo");
+let closeCollaboratedProjectsEl = document.getElementById("closeCollaborated");
+let closeVoluntaryProjectsEl = document.getElementById("closeVoluntary");
 //code to close first menu card and open solo projects card
 soloProjectsEl.addEventListener("click", function (event) {
   event.preventDefault();
@@ -22,6 +24,8 @@ closeSoloProjectsEl.addEventListener("click", function (event){
   document.getElementById("row2Star").classList.remove("d-none");
   document.getElementById("row3Star").classList.add("d-none");
   document.getElementById("soloProjectsCard").classList.add("d-none");
+  // added code causes page to scroll back to work section instead of forcing user to do it
+  window.scrollTo(0, document.getElementById('work').offsetTop)
 })
 
 
@@ -59,7 +63,7 @@ readMeEl.addEventListener("click", function (event) {
   document.getElementById("soloProjectsCard").classList.add("d-none");
   document.getElementById("readMeCard").classList.remove("d-none")
 });
-
+//code to close first menu card and open voluntary projects card
 voluntaryEl.addEventListener("click", function (event) {
   event.preventDefault();
   document.getElementById("row2Star").classList.add("d-none");
@@ -68,10 +72,29 @@ voluntaryEl.addEventListener("click", function (event) {
   document.getElementById("voluntaryCard").classList.remove("d-none");
 })
 
+//code to close the voluntary projects card and return to the first menu card
+closeVoluntaryProjectsEl.addEventListener("click", function (event){
+  document.getElementById("firstMenuCard").classList.remove("d-none");
+  document.getElementById("row2Star").classList.remove("d-none");
+  document.getElementById("row4Star").classList.add("d-none");
+  document.getElementById("voluntaryCard").classList.add("d-none");
+  // added code causes page to scroll back to work section instead of forcing user to do it
+  window.scrollTo(0, document.getElementById('work').offsetTop)
+})
+//code to close first menu card and collaborated projects card
 collaboratedEl.addEventListener("click", function (event) {
   event.preventDefault();
   document.getElementById("row2Star").classList.add("d-none");
   document.getElementById("firstMenuCard").classList.add("d-none");
   document.getElementById("collaboratedStar").classList.remove("d-none");
   document.getElementById("collaboratedCard").classList.remove("d-none");
+})
+//code to close the collaborated projects card and return to the first menu card
+closeCollaboratedProjectsEl.addEventListener("click", function (event){
+  document.getElementById("firstMenuCard").classList.remove("d-none");
+  document.getElementById("row2Star").classList.remove("d-none");
+  document.getElementById("collaboratedStar").classList.add("d-none");
+  document.getElementById("collaboratedCard").classList.add("d-none");
+  // added code causes page to scroll back to work section instead of forcing user to do it
+  window.scrollTo(0, document.getElementById('work').offsetTop)
 })
