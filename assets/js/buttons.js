@@ -11,6 +11,7 @@ let closeSoloProjectsEl = document.getElementById("closeSolo");
 let closeCollaboratedProjectsEl = document.getElementById("closeCollaborated");
 let closeVoluntaryProjectsEl = document.getElementById("closeVoluntary");
 let closePasswordGeneratorCardEl = document.getElementById("passwordGeneratorHomeButton")
+let goBackOnePasswordsEl = document.getElementById("goBackPasswords");
 //code to close first menu card and open solo projects card
 soloProjectsEl.addEventListener("click", function (event) {
   event.preventDefault();
@@ -47,8 +48,15 @@ closePasswordGeneratorCardEl.addEventListener("click", function (event){
   window.scrollTo(0, document.getElementById('work').offsetTop)
 })
 
-
-
+//code to close password generators card and return to solo projects card
+goBackOnePasswordsEl.addEventListener("click", function (event){
+  document.getElementById("soloProjectsCard").classList.remove("d-none");
+  document.getElementById("row2Star").classList.add("d-none");
+  document.getElementById("row3Star").classList.remove("d-none");
+  document.getElementById("passwordGeneratorsCard").classList.add("d-none");
+  // added code causes page to scroll back to work section instead of forcing user to do it
+  window.scrollTo(0, document.getElementById('soloProjectsCard').offsetTop)
+})
 
 
 
