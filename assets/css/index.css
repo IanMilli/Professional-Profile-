@@ -120,6 +120,13 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     .jumbotron2{
 height:auto;
     }
+    #logoPic,
+    #profilePic,
+    .navTop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (max-width:750px) {
