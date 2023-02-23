@@ -39,8 +39,8 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
 .jumbotron1 {
     background-image: url(../images/backgrounds/jumbotron\ background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 30vh;
+   background-size: cover;
+    height: 80vh;
     margin: 0%;
    
 }
