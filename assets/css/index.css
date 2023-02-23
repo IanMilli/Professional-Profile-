@@ -16,11 +16,12 @@ h2 {
 }
 
 h3 {font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     color: white(0, 0, 0);
 }
 h4 {font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3vw;
+    font-size: 1.6vw;
+    color: lightblue;
   
 }
 h5 {font-family: Georgia, 'Times New Roman', Times, serif;
@@ -38,8 +39,8 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
 .jumbotron1 {
     background-image: url(../images/backgrounds/jumbotron\ background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 20vh;
+   background-size: cover;
+    height: 80vh;
     margin: 0%;
    
 }
@@ -71,7 +72,7 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
     color: azure;
     margin-left: 25vh;
-    width: 30vh;
+    width: 25vh;
 }
 
 .cardDescriptionButton {
@@ -103,4 +104,54 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
 .card-text {
     height: 10em;
     overflow: auto;
+}
+
+/* Buttons arranged in column on xs devices */
+@media screen and (max-width: 576px) {
+    #passwordGenerators,
+.navTop,
+    .btn {
+        width: 40%;
+        height: auto;
+        padding: 10px 15px;
+        margin: 5px 10px;
+        font-size: 1.5vw;
+    }
+    .jumbotron2{
+height:auto;
+    }
+    #logoPic,
+    #profilePic,
+    .navTop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:750px) {
+    #passwordGenerators,
+    .navTop,
+    .btn {
+        width: 40%;
+        height: auto;
+        font-size: 1.7vw;
+    }
+    .jumbotron2{
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    #passwordGenerators,
+    .navTop,
+.btn{
+        font-size: 2vw;
+        width: 100%;
+        height: auto;
+    }
+    .jumbotron2{
+        height: auto;
+    }
 }
