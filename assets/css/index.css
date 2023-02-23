@@ -105,3 +105,43 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     height: 10em;
     overflow: auto;
 }
+
+/* Buttons arranged in column on xs devices */
+@media screen and (max-width: 576px) {
+.navTop
+    .btn {
+        width: 40%;
+        height: auto;
+        padding: 10px 15px;
+        margin: 5px 10px;
+        font-size: 1.5vw;
+    }
+    .jumbotron2{
+height:auto;
+    }
+}
+
+@media (max-width:750px) {
+    .navTop
+    .btn {
+        width: 40%;
+        height: auto;
+        font-size: 1.7vw;
+    }
+    .jumbotron2{
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .navTop
+.btn{
+        font-size: 2vw;
+        width: 100%;
+        height: auto;
+    }
+    .jumbotron2{
+        height: auto;
+    }
+}
