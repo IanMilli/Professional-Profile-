@@ -18,6 +18,7 @@ soloProjectsEl.addEventListener("click", function (event) {
   document.getElementById("firstMenuCard").classList.add("d-none");
   document.getElementById("row3Star").classList.remove("d-none");
   document.getElementById("soloProjectsCard").classList.remove("d-none");
+  window.scrollTo(0, document.getElementById('soloProjectsCard').offsetTop)
 });
 //code to close the solo projects card and return to the first menu card
 closeSoloProjectsEl.addEventListener("click", function (event){

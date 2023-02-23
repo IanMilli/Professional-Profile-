@@ -16,11 +16,12 @@ h2 {
 }
 
 h3 {font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     color: white(0, 0, 0);
 }
 h4 {font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3vw;
+    font-size: 1.6vw;
+    color: lightblue;
   
 }
 h5 {font-family: Georgia, 'Times New Roman', Times, serif;
@@ -39,7 +40,7 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url(../images/backgrounds/jumbotron\ background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20vh;
+    height: 30vh;
     margin: 0%;
    
 }
@@ -71,7 +72,7 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
     color: azure;
     margin-left: 25vh;
-    width: 30vh;
+    width: 25vh;
 }
 
 .cardDescriptionButton {
