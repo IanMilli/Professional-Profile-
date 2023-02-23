@@ -12,6 +12,9 @@ let closeCollaboratedProjectsEl = document.getElementById("closeCollaborated");
 let closeVoluntaryProjectsEl = document.getElementById("closeVoluntary");
 let closePasswordGeneratorCardEl = document.getElementById("passwordGeneratorHomeButton")
 let goBackOnePasswordsEl = document.getElementById("goBackPasswords");
+let closeRevisionTestCardEl = document.getElementById("passwordRevisionHomeButton");
+let goBackOneRevisionTestEl = document.getElementById("goBackRevision");
+
 //code to close first menu card and open solo projects card
 soloProjectsEl.addEventListener("click", function (event) {
   event.preventDefault();
@@ -57,21 +60,45 @@ goBackOnePasswordsEl.addEventListener("click", function (event){
   // added code causes page to scroll back to work section instead of forcing user to do it
   window.scrollTo(0, document.getElementById('soloProjectsCard').offsetTop)
 })
-
-
-
-
-
-
-
-
-
+// code to open revision test card and close solo projects card
 revisionCardsTestEl.addEventListener("click", function (event) {
   event.preventDefault();
-  document.getElementById("row2Star").classList.add("d-none");
+  document.getElementById("row3Star").classList.add("d-none");
   document.getElementById("soloProjectsCard").classList.add("d-none");
-  document.getElementById("revisionTestCard").classList.remove("d-none")
-});
+  document.getElementById("revisionTestCard").classList.remove("d-none");
+  });
+//code to close password revision test card and return to first menu card
+
+closeRevisionTestCardEl.addEventListener("click", function (event){
+  document.getElementById("firstMenuCard").classList.remove("d-none");
+  document.getElementById("row2Star").classList.remove("d-none");
+  document.getElementById("revisionTestCard").classList.add("d-none");
+  // added code causes page to scroll back to work section instead of forcing user to do it
+  window.scrollTo(0, document.getElementById('work').offsetTop)
+})
+
+//code to close revision test card and return to solo projects card
+goBackOneRevisionTestEl.addEventListener("click", function (event){
+  document.getElementById("soloProjectsCard").classList.remove("d-none");
+  document.getElementById("row2Star").classList.add("d-none");
+  document.getElementById("row3Star").classList.remove("d-none");
+  document.getElementById("revisionTestCard").classList.add("d-none");
+  // added code causes page to scroll back to work section instead of forcing user to do it
+  window.scrollTo(0, document.getElementById('soloProjectsCard').offsetTop)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dailyPlannerEl.addEventListener("click", function (event) {
   event.preventDefault();
