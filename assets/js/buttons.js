@@ -14,6 +14,8 @@ let closePasswordGeneratorCardEl = document.getElementById("passwordGeneratorHom
 let goBackOnePasswordsEl = document.getElementById("goBackPasswords");
 let closeRevisionTestCardEl = document.getElementById("passwordRevisionHomeButton");
 let goBackOneRevisionTestEl = document.getElementById("goBackRevision");
+let closePlannerCardEl = document.getElementById("plannerHomeButton");
+let goBackPlannerEl = document.getElementById("goBackPlanner");
 
 //code to close first menu card and open solo projects card
 soloProjectsEl.addEventListener("click", function (event) {
@@ -87,25 +89,47 @@ goBackOneRevisionTestEl.addEventListener("click", function (event){
   window.scrollTo(0, document.getElementById('soloProjectsCard').offsetTop)
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+//code to open daily planner card and shut solo projects card 
 dailyPlannerEl.addEventListener("click", function (event) {
   event.preventDefault();
-  document.getElementById("row2Star").classList.add("d-none");
+  document.getElementById("row3Star").classList.add("d-none");
   document.getElementById("soloProjectsCard").classList.add("d-none");
   document.getElementById("dailyPlannerCard").classList.remove("d-none")
 });
+
+
+
+//code to close password revision test card and return to first menu card
+
+closePlannerCardEl.addEventListener("click", function (event){
+  document.getElementById("firstMenuCard").classList.remove("d-none");
+  document.getElementById("row2Star").classList.remove("d-none");
+  document.getElementById("dailyPlannerCard").classList.add("d-none");
+  // added code causes page to scroll back to work section instead of forcing user to do it
+  window.scrollTo(0, document.getElementById('work').offsetTop)
+})
+
+//code to close revision test card and return to solo projects card
+goBackPlannerEl.addEventListener("click", function (event){
+  document.getElementById("soloProjectsCard").classList.remove("d-none");
+  document.getElementById("row2Star").classList.add("d-none");
+  document.getElementById("row3Star").classList.remove("d-none");
+  document.getElementById("dailyPlannerCard").classList.add("d-none");
+  // added code causes page to scroll back to work section instead of forcing user to do it
+  window.scrollTo(0, document.getElementById('soloProjectsCard').offsetTop)
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 weatherDashboardEl.addEventListener("click", function (event) {
   event.preventDefault();
