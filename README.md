@@ -31,9 +31,13 @@
    
    ### Link for [Repository For Deployed Application](https://github.com/IanMilli/Professional-Profile-)
 
-   ### Link for [Video demonstrating use of the deployed application]()
+   ### Link for [Video demonstrating use of the deployed application](https://drive.google.com/file/d/1vfMtgJq6Xfeo5GAto5C3jQcVKoNGzEFf/view)
+   
+   or link to the video by scanning the following QR code:
+   ![qr-code ](https://user-images.githubusercontent.com/120601739/221374474-52322b12-dfb4-46f5-a186-885d330b62f1.png)
    
    ## Installation 
+
 
    No installation required. User must use the link in [Links](links) to access the deployed website.
 
@@ -73,8 +77,12 @@
    ## Usage
 
    The user should click on [Links](#links) to explore the website and use buttons to either access deployed applications, application repositories, and my contact information.
+   
+   The following gif demonstrates how to interact with the site:
+   ![Profile](https://user-images.githubusercontent.com/120601739/221374630-fc6fca55-9191-4b78-a038-744579200a6b.gif)
 
    ## Screenshots
+
 
 *   Screenshot of the main page:
 ![main page](https://user-images.githubusercontent.com/120601739/221374134-dd2a8b82-e15f-41fd-83b4-ad313a6fa362.png)
