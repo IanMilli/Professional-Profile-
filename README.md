@@ -42,7 +42,8 @@
   Wire framing created using https://excalidraw.com/, this is a rough outline that served as a back bone to the project that has evolved from the initial structure
 
    ### Wire Framing Image
-   yes this is a placeholder for a wire framing image 
+  
+![wireframing](https://user-images.githubusercontent.com/120601739/221373957-c0d1c0e7-3fe5-4500-9b58-05ccf827b9af.png)
 
    ## UserStory
 
@@ -75,11 +76,20 @@
 
    ## Screenshots
 
-   yes, this is a placeholder for screenshots to be added
+*   Screenshot of the main page:
+![main page](https://user-images.githubusercontent.com/120601739/221374134-dd2a8b82-e15f-41fd-83b4-ad313a6fa362.png)
 
-   
+* Screenshot of the open voluntary projects card:
+   ![voluntary project](https://user-images.githubusercontent.com/120601739/221374156-ea978fc7-0294-4c68-a32a-36cbc0829a72.png)
+
+* Screenshot of the open collaborated projects card:
+![collaborated projects](https://user-images.githubusercontent.com/120601739/221374173-efd3ab40-5cdc-4e73-bf42-1a3c2e779d30.png)
+
+* Screenshot of the open solo projects card:
+![solo project](https://user-images.githubusercontent.com/120601739/221374164-db58ba60-c9c7-4c1f-92da-da8fc2f44b9e.png)
 
    ## Evolution
+
 
    * To evolve this project further i can add further web applications that I have developed to it.
    
