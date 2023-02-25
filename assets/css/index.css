@@ -45,12 +45,12 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
 .cardAbout {
-    background-image: url(../images/backgrounds/about\ background.jpg);
+    background-image: url(../images/backgrounds/star\ gif.gif);
     background-repeat: no-repeat;
     background-size: cover;
     border: solid black 1px;
     height: 30vh;
-    border-radius: 70%;
+    border-radius: 20%;
 }
 .cardDescription {
     background-image: url(../images/backgrounds/background\ cardDescription.jpg);
@@ -110,8 +110,9 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
 @media screen and (max-width: 576px) {
     #passwordGenerators,
 .navTop,
+
     .btn {
-        width: 40%;
+        width:40%;
         height: auto;
         padding: 10px 15px;
         margin: 5px 10px;
@@ -122,11 +123,17 @@ height:auto;
     }
     #logoPic,
     #profilePic,
-    .navTop{
+    .navTop,
+    .cardAbout,
+    .card
+    {
         display: flex;
         align-items: center;
         justify-content: center;
+       margin-right: auto;
+       margin-left: auto;
     }
+    
 }
 
 @media (max-width:750px) {
