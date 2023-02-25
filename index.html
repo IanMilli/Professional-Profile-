@@ -18,40 +18,50 @@
     <!--navbar code for top of webpage - links for phone email linkedin github-->
     <nav class="navbar  navbar-dark ">
         <div class="d-block  row">
+            <!--img displaying brand logo for profile - height limited to 15vh, given a left margin to justify it into the page-->
             <img class=" rounded-5" src="./assets/images/backgrounds/logo page.png"
                 style="height:15vh;width:auto;border-radius: 20%;margin-left: 25vh;" id="logoPic"><img>
-
         </div>
-        <a class="navbar-brand navTop ml-auto" href="#about">About Me</a>
-        <a class="navbar-brand navTop " href="#work">Web Design Work</a>
+        <!--nav bar link to about me section (navTop class links to css file to improve responsiveness of nav bar- centres links and moves into a column on smaller displays)-->
+        <a class="navbar-brand navTop ml-auto mr-3" href="#about">About Me</a>
+        <!--nav bar link to work section (navTop class links to css file to improve responsiveness of nav bar- centres links and moves into a column on smaller displays)-->
+        <a class="navbar-brand navTop mr-3" href="#work">Web Design Work</a>
+        <!--dropdown menu for contact information-->
         <div class="dropdown navTop">
             <a class="navbar-brand navTop dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Contact Me
             </a>
             <div class="dropdown-menu  " aria-labelledby="dropdownMenuLink">
+                <!--phone link with href code that allows a user to call directly from local device-->
                 <a class="dropdown-item navTop" href="tel:+4407498174271">+ 44 (07498) 174271</a>
                 <div class="dropdown-divider"></div>
+                <!--email link with href code that allows a user to email me directly from the link-->
                 <a class="dropdown-item navTop" href="mailto:ianmillichamp.2@gmail.com">Email</a>
                 <div class="dropdown-divider"></div>
+                <!--link to my linked in profile-->
                 <a class="dropdown-item navTop" href="https://www.linkedin.com/in/ian-millichamp/">LinkedIn</a>
             </div>
         </div>
+        <!--nav bar link to resume (navTop class links to css file to improve responsiveness of nav bar- centres links and moves into a column on smaller displays)-->
         <a class="navbar-brand navTop"
             href="https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing">Resume</a>
         </button>
         </button>
-
     </nav>
-    <!--jumbotron code-->
+    <!--end of nav bar code-->
+    <!--start of the jumbotron code-->
     <div class="jumbotron jumbotron1 jumbotron-fluid">
         <div class="container">
+            <!--page title-->
             <h1 class="display-4 text-white " style="margin-left: 13%;;">Portfolio</h1>
         </div>
+        <!--image of me -->
         <img class=" rounded-5 ml-5" src="./assets/images/backgrounds/profilepic.jpg"
             style="height:25vh;width:auto;border-radius: 50%;" id="profilePic"><img>
     </div>
-    <!--carousel code-->
+    <!--end of the jumbotron-->
+    <!--beginning of row 1 code that contains div for 'about me' title and div containing both summary statement and carousel displaying skills developed-->
     <div class="row1 mt-5">
         <div class="row">
             <div class="col-xs-2, col-sm-12, col-md-4, col-lg-2">
