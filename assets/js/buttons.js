@@ -186,6 +186,7 @@ voluntaryEl.addEventListener("click", function (event) {
   document.getElementById("firstMenuCard").classList.add("d-none");
   document.getElementById("row4Star").classList.remove("d-none");
   document.getElementById("voluntaryCard").classList.remove("d-none");
+  window.scrollTo(0, document.getElementById('voluntaryCard').offsetTop)
 })
 
 //code to close the voluntary projects card and return to the first menu card
