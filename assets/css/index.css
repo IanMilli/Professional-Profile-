@@ -1,28 +1,26 @@
+/*styling for who;le page to be black*/
 body {
     background-color: black;
     margin:0;
 }
+/*styling section to code page headers and make text fully responsive*/
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 6vw;
     color: white;
-
 }
-
 h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3vw;
     color: navy(255, 252, 252);
 }
-
 h3 {font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.4vw;
     color: white(0, 0, 0);
 }
 h4 {font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.6vw;
-    color: lightblue;
-  
+    color: lightblue; 
 }
 h5 {font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5vw;
@@ -36,14 +34,15 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1vw;
     color: black;
     }
+/*styling used to give top jumbotron the background img and set its height*/
 .jumbotron1 {
     background-image: url(../images/backgrounds/jumbotron\ background.jpg);
     background-repeat: no-repeat;
    background-size: cover;
-    height: 80vh;
+    height: 60vh;
     margin: 0%;
-   
 }
+/*styling used for the cards that give the about and we design titles - set background add border and determine card height*/
 .cardAbout {
     background-image: url(../images/backgrounds/star\ gif.gif);
     background-repeat: no-repeat;
@@ -52,20 +51,16 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     height: 30vh;
     border-radius: 20%;
 }
+/*styling to main info cards */
 .cardDescription {
     background-image: url(../images/backgrounds/background\ cardDescription.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 140vh;
     margin-left: 30vh;
-    border: solid black 1px;
-   
+    border: solid black 1px; 
 }
-.workCardBackground {
-    background-image: url(../images/backgrounds/background\ cardDescription.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/*id to overwrite class sizing of buttons on the cards*/
 #cardDescriptionButton {
     background-image: url(../images/backgrounds/button\ background.jpg);
     background-repeat: no-repeat;
@@ -74,7 +69,7 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 25vh;
     width: 25vh;
 }
-
+/*class to initially style buttons on the info cards*/
 .cardDescriptionButton {
     background-image: url(../images/backgrounds/button\ background.jpg);
     background-repeat: no-repeat;
@@ -83,8 +78,7 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 25vh;
     width: 90vh;
 }
-
-
+/*styling for the buttons on the password generator page*/
 #passwordGeneratorButton{
     background-image: url(../images/backgrounds/button\ background.jpg);
     background-repeat: no-repeat;
@@ -93,6 +87,7 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 20vh;
     width: 45vh;
 }
+/*styling for the lower jumbotron*/
 .jumbotron2 {
     background-image: url(../images/backgrounds/jumbotron2\ background.jpg);
     background-repeat: no-repeat;
@@ -105,7 +100,7 @@ b{font-family: Georgia, 'Times New Roman', Times, serif;
     height: 10em;
     overflow: auto;
 }
-
+/*media enquires to aid in page responsiveness*/
 /* Buttons arranged in column on xs devices */
 @media screen and (max-width: 576px) {
     #passwordGenerators,
