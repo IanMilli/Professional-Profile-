@@ -48,6 +48,7 @@ passwordGeneratorsEl.addEventListener("click", function (event) {
   document.getElementById("row3Star").classList.add("d-none");
   document.getElementById("soloProjectsCard").classList.add("d-none");
   document.getElementById("passwordGeneratorsCard").classList.remove("d-none")
+  window.scrollTo(0, document.getElementById('passwordGeneratorsCard').offsetTop)
 });
 //code to close password generators card and return to first menu card
 
@@ -74,6 +75,7 @@ revisionCardsTestEl.addEventListener("click", function (event) {
   document.getElementById("row3Star").classList.add("d-none");
   document.getElementById("soloProjectsCard").classList.add("d-none");
   document.getElementById("revisionTestCard").classList.remove("d-none");
+  window.scrollTo(0, document.getElementById('revisionTestCard"').offsetTop)
   });
 //code to close password revision test card and return to first menu card
 
@@ -174,10 +176,6 @@ goBackReadMeEl.addEventListener("click", function (event){
   // added code causes page to scroll back to work section instead of forcing user to do it
   window.scrollTo(0, document.getElementById('soloProjectsCard').offsetTop)
 })
-
-
-
-
 
 //code to close first menu card and open voluntary projects card
 voluntaryEl.addEventListener("click", function (event) {
